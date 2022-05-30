@@ -8,28 +8,33 @@
 
 
 <url>
-  <loc>https://jtroconiz.github.io/JTD-troconiz/index.html</loc>
-  <lastmod>2022-05-20T18:02:13+00:00</lastmod>
+  <loc>https://jtd.com.ar/</loc>
+  <lastmod>2022-05-30T18:10:27+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://jtroconiz.github.io/JTD-troconiz/htmls/about-me.html</loc>
-  <lastmod>2022-05-20T18:02:13+00:00</lastmod>
+  <loc>https://jtd.com.ar/index.html</loc>
+  <lastmod>2022-05-30T18:10:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://jtroconiz.github.io/JTD-troconiz/htmls/why-jtd.html</loc>
-  <lastmod>2022-05-20T18:02:13+00:00</lastmod>
+  <loc>https://jtd.com.ar/htmls/about-me.html</loc>
+  <lastmod>2022-05-30T18:10:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://jtroconiz.github.io/JTD-troconiz/htmls/portfolio.html</loc>
-  <lastmod>2022-05-20T18:02:13+00:00</lastmod>
+  <loc>https://jtd.com.ar/htmls/why-jtd.html</loc>
+  <lastmod>2022-05-30T18:10:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://jtroconiz.github.io/JTD-troconiz/htmls/contact.html</loc>
-  <lastmod>2022-05-20T18:02:13+00:00</lastmod>
+  <loc>https://jtd.com.ar/htmls/portfolio.html</loc>
+  <lastmod>2022-05-30T18:10:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jtd.com.ar/htmls/contact.html</loc>
+  <lastmod>2022-05-30T18:10:27+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
