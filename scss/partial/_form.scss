@@ -1,0 +1,7 @@
+/* form */  
+.btn-outline-dark:hover{
+    background-color: map-get($map: $colores, $key: 'secundario');
+}
+.indexcontact{
+    padding-top: 0.5rem; 
+}

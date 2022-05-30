@@ -1,0 +1,697 @@
+/* fonts */
+@font-face {
+  font-family: bebas;
+  src: url(bebas.ttf);
+}
+
+@font-face {
+  font-family: somatic;
+  src: url(somatic.otf);
+}
+
+@font-face {
+  font-family: quick;
+  src: url(somatic.otf);
+}
+
+@font-face {
+  font-family: quickl;
+  src: url(Quicksand-Light.ttf);
+}
+
+@font-face {
+  font-family: quick2;
+  src: url(Quicksand-Regular.ttf);
+}
+
+/* mixin  uso en portfolio*/
+/* maps-Variables*/
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+  }
+}
+
+/* Themes */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "quick2";
+}
+
+main {
+  padding-top: 9rem;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 100vh;
+}
+
+.bebas {
+  font-family: "bebas";
+}
+
+h1 {
+  text-align: center;
+  font-family: "quick2";
+  font-weight: 800;
+}
+
+h2 {
+  text-align: center;
+  font-family: "quick2";
+  font-weight: 500;
+}
+
+h3 {
+  text-align: center;
+  font-family: "quick2";
+}
+
+p {
+  margin-bottom: 0rem;
+  font-family: "quick2";
+  font-weight: 300;
+}
+
+/* index */
+.BestWay {
+  text-align: center;
+}
+
+.piccarou {
+  max-height: 500px;
+}
+
+.carousel {
+  max-width: 1000px;
+}
+
+/* header */
+header {
+  background-color: #12054c;
+}
+
+header img {
+  width: 120px;
+  padding-right: 0.5;
+}
+
+header .nav-item {
+  padding: 1rem;
+}
+
+header li {
+  letter-spacing: 2.5px;
+}
+
+/* footer */
+footer {
+  margin-top: auto;
+}
+
+footer .footera {
+  background-color: white;
+  justify-content: center;
+  text-align: center;
+}
+
+footer .footera .boton {
+  text-decoration: none;
+  color: #12054c;
+  font-size: 20px;
+  padding: 1rem;
+}
+
+footer .footerb {
+  background-color: #8196ff;
+  padding: 0.5em;
+  text-align: center;
+  color: white;
+}
+
+/* form */
+.btn-outline-dark:hover {
+  background-color: #8196ff;
+}
+
+.indexcontact {
+  padding-top: 0.5rem;
+}
+
+/* about */
+.aboutme {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.aboutme img {
+  object-fit: cover;
+  width: 150px;
+  height: 300px;
+  border-radius: 20px;
+  padding: 0.5rem;
+}
+
+.aboutme__p {
+  text-align: justify;
+  padding: 1rem;
+}
+
+/* why */
+.card-img-top {
+  object-fit: fill;
+  width: 300px;
+  height: 60px;
+  border-radius: 5px;
+}
+
+.textcarou {
+  text-align: center;
+}
+
+.d-block {
+  width: 350px;
+}
+
+/* portfolio -  */
+.portfoliogrid {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 300px;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  grid-template-areas: "portfoliogrid1" "portfoliogrid2" "portfoliogrid3"     "portfoliogrid4" "portfoliogrid5" "portfoliogrid6"     "portfoliogrid7" "portfoliogrid8" "portfoliogrid9";
+}
+
+.portfoliogrid img {
+  object-fit: fill;
+  width: 100%;
+  height: 250px;
+  border-radius: 20px;
+}
+
+.portfoliogrid .Sec__picV {
+  object-fit: fill;
+  width: 100%;
+  height: 550px;
+  border-radius: 20px;
+}
+
+.portfoliogrid1 {
+  grid-area: portfoliogrid1;
+}
+
+.portfoliogrid2 {
+  grid-area: portfoliogrid2;
+}
+
+.portfoliogrid3 {
+  grid-area: portfoliogrid3;
+}
+
+.portfoliogrid4 {
+  grid-area: portfoliogrid4;
+}
+
+.portfoliogrid5 {
+  grid-area: portfoliogrid5;
+}
+
+.portfoliogrid6 {
+  grid-area: portfoliogrid6;
+}
+
+.portfoliogrid7 {
+  grid-area: portfoliogrid7;
+}
+
+.portfoliogrid8 {
+  grid-area: portfoliogrid8;
+}
+
+/* animations */
+.jello-horizontal {
+  -webkit-animation: jello-horizontal 3s both;
+  animation: jello-horizontal 3s both;
+}
+
+@-webkit-keyframes jello-horizontal {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes jello-horizontal {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.text-focus-in {
+  animation: text-focus-in 1s ease-in-out both;
+}
+
+@keyframes text-focus-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-blurred-top {
+  0% {
+    -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-filter: blur(40px);
+    filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+    transform: translateY(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-blurred-top {
+  -webkit-animation: slide-in-blurred-top 0.2s cubic-bezier(0.23, 1, 0.32, 1) 0.2s both;
+  animation: slide-in-blurred-top 0.1s cubic-bezier(0.23, 1, 0.32, 1) 1s both;
+}
+
+.slide-in-blurred-top1 {
+  -webkit-animation: slide-in-blurred-top 0.2s cubic-bezier(0.23, 1, 0.32, 1) 3s both;
+  animation: slide-in-blurred-top 0.6s cubic-bezier(0.23, 1, 0.32, 1) 2s both;
+}
+
+.slide-in-blurred-top2 {
+  -webkit-animation: slide-in-blurred-top 0.1s cubic-bezier(0.23, 1, 0.32, 1) 3s both;
+  animation: slide-in-blurred-top 0.6s cubic-bezier(0.23, 1, 0.32, 1) 3s both;
+}
+
+.slide-in-blurred-top3 {
+  -webkit-animation: slide-in-blurred-top 0.1s cubic-bezier(0.23, 1, 0.32, 1) 3s both;
+  animation: slide-in-blurred-top 0.6s cubic-bezier(0.23, 1, 0.32, 1) 4s both;
+}
+
+.blink-1 {
+  -webkit-animation: blink-1 .6s both;
+  animation: blink-1 .6s both;
+}
+
+@-webkit-keyframes blink-1 {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+@keyframes blink-1 {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+/* media querys */
+.nomobile {
+  display: none;
+}
+
+@media only screen and (min-width: 601px) {
+  header img {
+    width: 150px;
+    padding-left: 2em;
+  }
+  /* about grid */
+  .aboutgrid {
+    display: grid;
+    margin-top: 1rem;
+    align-items: center;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: center;
+    grid-template-areas: "aboutgrid1 aboutgrid2 aboutgrid2" "aboutgrid3 aboutgrid3 aboutgrid4 ";
+  }
+  .aboutgrid1 {
+    grid-area: aboutgrid1;
+  }
+  .aboutgrid2 {
+    grid-area: aboutgrid2;
+  }
+  .aboutgrid3 {
+    grid-area: aboutgrid3;
+  }
+  .aboutgrid4 {
+    grid-area: aboutgrid4;
+  }
+  /* portfolio grid*/
+  .portfoliogrid {
+    grid-template-columns: 250px 250px;
+    grid-template-areas: "portfoliogrid1 portfoliogrid2" "portfoliogrid3 portfoliogrid6" "portfoliogrid5 portfoliogrid4" "portfoliogrid8 portfoliogrid7" "portfoliogrid9 portfoliogrid9";
+  }
+  #Sec__picH {
+    object-fit: fill;
+    width: 516px;
+    height: 250px;
+    border-radius: 20px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  h1 {
+    text-align: center;
+    font-family: "quick2";
+    font-weight: 800;
+    font-size: 1.8rem;
+  }
+  h2 {
+    text-align: center;
+    font-family: "quick2";
+    font-weight: 500;
+    font-size: 1.4rem;
+  }
+  h3 {
+    text-align: center;
+    font-family: "quick2";
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  p {
+    margin-bottom: 0rem;
+    font-family: "quick2";
+    font-weight: 300;
+  }
+  .nomobile {
+    display: contents;
+  }
+  .nopc {
+    display: none;
+  }
+  .maincontact {
+    padding-top: 9rem;
+  }
+  .indexcontact {
+    padding-top: 1.5rem;
+  }
+  .BestWay {
+    margin-top: 2rem;
+  }
+  .peter {
+    margin-bottom: 2rem;
+  }
+  .reduce {
+    display: block;
+    align-self: center;
+  }
+  /* Time line */
+  .main-timeline-2 {
+    position: relative;
+  }
+  .main-timeline-2::after {
+    content: '';
+    position: absolute;
+    width: 3px;
+    background-color: #8196ff;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+  /* Container around content */
+  .timeline-2 {
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+  /* circles timeline */
+  .timeline-2::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -11px;
+    background-color: #8196ff;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  /* Place the container to the left */
+  .left-2 {
+    padding: 0px 40px 20px 0px;
+    left: 0;
+  }
+  /* Place the container to the right */
+  .right-2 {
+    padding: 0px 0px 20px 40px;
+    left: 50%;
+  }
+  /* Fix the circle for containers on the right side */
+  .right-2::after {
+    left: -14px;
+  }
+  .left-2::after {
+    left: 97.5%;
+  }
+  .whygrid {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 500px 20px 500px;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    grid-template-areas: "whygrid1 linea whygrid2" "whygrid3 linea whygrid2 " "whygrid5 linea whygrid4" "whygrid7 linea whygrid6";
+  }
+  .whygrid1 {
+    grid-area: whygrid1;
+  }
+  .whygrid2 {
+    grid-area: whygrid2;
+  }
+  .whygrid3 {
+    grid-area: whygrid3;
+  }
+  .whygrid4 {
+    grid-area: whygrid4;
+  }
+  .whygrid5 {
+    grid-area: whygrid5;
+  }
+  .whygrid6 {
+    grid-area: whygrid6;
+  }
+  .whygrid7 {
+    grid-area: whygrid7;
+  }
+  .whygoal {
+    display: flex;
+    padding: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 250px;
+  }
+  .whygoal__text {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 0 3rem 0 3rem;
+    display: inline-block;
+  }
+  .d-block {
+    width: auto;
+  }
+  .aboutgrid {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 150px 200px 200px 150px;
+    align-items: center;
+    justify-content: center;
+    grid-template-areas: "aboutgrid1 aboutgrid2 aboutgrid2 aboutgrid2" "aboutgrid3 aboutgrid3 aboutgrid3 aboutgrid4";
+  }
+  .aboutgrid1 {
+    grid-area: aboutgrid1;
+  }
+  .aboutgrid2 {
+    grid-area: aboutgrid2;
+  }
+  .aboutgrid3 {
+    grid-area: aboutgrid3;
+  }
+  .aboutgrid4 {
+    grid-area: aboutgrid4;
+  }
+  .info {
+    display: none;
+    position: absolute;
+    z-index: 10;
+    font-size: 1.5rem;
+    width: 300px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .portfoliogrid {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    grid-template-areas: "portfoliogrid1 portfoliogrid5 portfoliogrid3" "portfoliogrid4 portfoliogrid2 portfoliogrid3" "portfoliogrid6 portfoliogrid7 portfoliogrid8" "portfoliogrid6 portfoliogrid9 portfoliogrid9";
+  }
+  #Sec__picH {
+    object-fit: fill;
+    width: 616px;
+    height: 250px;
+    border-radius: 20px;
+  }
+  .Sec__picV {
+    object-fit: fill;
+    width: 100%;
+    height: 550px;
+    border-radius: 20px;
+  }
+  .portfoliogrid1:hover .info {
+    display: block;
+  }
+  .portfoliogrid2:hover .info {
+    display: block;
+  }
+  .portfoliogrid3:hover .info {
+    display: block;
+  }
+  .portfoliogrid4:hover .info {
+    display: block;
+  }
+  .portfoliogrid5:hover .info {
+    display: block;
+  }
+  .portfoliogrid6:hover .info {
+    display: block;
+  }
+  .portfoliogrid7:hover .info {
+    display: block;
+  }
+  .portfoliogrid8:hover .info {
+    display: block;
+  }
+  .portfoliogrid9:hover .info {
+    display: block;
+  }
+  .portfoliogrid1:hover .Sec__pic {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  .portfoliogrid2:hover .Sec__pic {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  .portfoliogrid3:hover .Sec__picV {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  .portfoliogrid4:hover .Sec__pic {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  .portfoliogrid5:hover .Sec__pic {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  .portfoliogrid6:hover .Sec__picV {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  .portfoliogrid7:hover .Sec__pic {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  .portfoliogrid8:hover .Sec__pic {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  .portfoliogrid9:hover #Sec__picH {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  .SecWhite:hover .Sec__pic {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+/*# sourceMappingURL=style.css.map */

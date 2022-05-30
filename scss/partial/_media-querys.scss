@@ -1,0 +1,268 @@
+/* media querys */
+.nomobile{
+    display: none;
+}
+
+@media only screen and (min-width: 601px) {
+  
+header img{
+    width: 150px;
+    padding-left: 2em;
+}
+
+/* about grid */
+.aboutgrid{
+    display: grid;
+    margin-top: 1rem;
+    align-items: center;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: center;
+    grid-template-areas: 
+        "aboutgrid1 aboutgrid2 aboutgrid2"
+        "aboutgrid3 aboutgrid3 aboutgrid4 "; 
+    
+    @for $grid from 1 through 4{
+        &#{$grid}{
+            grid-area: aboutgrid#{$grid}; 
+            }
+        }
+}
+/* portfolio grid*/
+.portfoliogrid{
+    grid-template-columns: 250px 250px;
+    grid-template-areas: 
+    "portfoliogrid1 portfoliogrid2"
+    "portfoliogrid3 portfoliogrid6"
+    "portfoliogrid5 portfoliogrid4"
+    "portfoliogrid8 portfoliogrid7"
+    "portfoliogrid9 portfoliogrid9"
+    ;
+    }
+    #Sec__picH{
+        @include pics(fill, 516px, 250px, 20px) 
+    }
+
+        
+}
+@media only screen and (min-width: 900px) {
+    h1{
+        text-align: center;
+        font-family: $fuente2r;
+        font-weight: 800;
+        font-size: 1.8rem;
+    }
+    h2{
+        text-align: center;
+        font-family: $fuente2r;
+        font-weight: 500;
+        font-size: 1.4rem;
+    }
+    h3{
+        text-align: center;
+        font-family: $fuente2r;
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+    p{
+        margin-bottom: 0rem;
+        font-family: $fuente2r;
+        font-weight: 300;
+    }   
+
+.nomobile{
+        display: contents;
+}
+.nopc{
+   display: none;
+} 
+
+.maincontact{
+    padding-top: 9rem;
+}   
+.indexcontact{
+    padding-top: 1.5rem; 
+}
+.BestWay{
+    margin-top: 2rem;
+}
+.peter{
+    margin-bottom: 2rem;
+}
+.reduce{
+    display: block;
+    align-self: center;
+}
+
+
+    /* Time line */
+.main-timeline-2 {
+    position: relative;
+    &::after {
+    content: '';
+    position: absolute;
+    width: 3px;
+    background-color: map-get($map: $colores, $key: 'secundario');
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+    }
+}
+    /* Container around content */
+    .timeline-2 {
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+    }
+    /* circles timeline */
+    .timeline-2::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -11px;
+    background-color: map-get($map: $colores, $key: 'secundario');
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+    }
+    /* Place the container to the left */
+    .left-2 {
+    padding: 0px 40px 20px 0px;
+    left: 0;
+    }
+    /* Place the container to the right */
+    .right-2 {
+    padding: 0px 0px 20px 40px;
+    left: 50%;
+    }
+    /* Fix the circle for containers on the right side */
+    .right-2::after {
+    left: -14px;
+    }
+    .left-2::after{
+        left: 97.5%;
+        }
+.whygrid{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 500px 20px 500px;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    grid-template-areas: 
+    "whygrid1 linea whygrid2"
+    "whygrid3 linea whygrid2 "
+    "whygrid5 linea whygrid4"
+    "whygrid7 linea whygrid6"
+    ;
+    @for $grid from 1 through 7{
+        &#{$grid}{
+            grid-area: whygrid#{$grid}; 
+            }
+        }
+}
+
+.whygoal{
+        display: flex;
+        padding: 0.5rem;
+        flex-wrap: wrap;  
+        justify-content: center;    
+        min-width: 250px;
+    }
+    .whygoal__text{
+    text-align:  center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 0 3rem 0 3rem;
+
+    display: inline-block
+}
+.d-block{
+    width: auto;
+}
+.aboutgrid{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 150px 200px 200px 150px;
+    align-items: center;
+    justify-content: center;
+    grid-template-areas: 
+    "aboutgrid1 aboutgrid2 aboutgrid2 aboutgrid2"
+    "aboutgrid3 aboutgrid3 aboutgrid3 aboutgrid4"; 
+    @for $grid from 1 through 4{
+        &#{$grid}{
+            grid-area: aboutgrid#{$grid}; 
+            }
+        }
+}
+
+.info {
+    display: none;
+    position: absolute;
+    z-index: 10; 
+    font-size: 1.5rem;
+    width: 300px;
+    color: map-get($map: $colores, $key: 'back');
+    background: rgba(0, 0, 0, 0.5);
+   }
+   .portfoliogrid{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    grid-template-areas: 
+    "portfoliogrid1 portfoliogrid5 portfoliogrid3"
+    "portfoliogrid4 portfoliogrid2 portfoliogrid3"
+    "portfoliogrid6 portfoliogrid7 portfoliogrid8"
+    "portfoliogrid6 portfoliogrid9 portfoliogrid9"
+    ;
+}
+#Sec__picH{
+    @include pics(fill, 616px, 250px, 20px)
+}
+.Sec__picV{
+    @include pics(fill, 100%, 550px, 20px)
+}
+
+.portfoliogrid1:hover .info {
+    display: block;
+    }
+    .portfoliogrid2:hover .info {
+        display: block;
+        }
+        .portfoliogrid3:hover .info {
+            display: block;
+            }
+            .portfoliogrid4:hover .info {
+                display: block;
+                }
+                .portfoliogrid5:hover .info {
+                    display: block;
+                    }
+                    .portfoliogrid6:hover .info {
+                        display: block;
+                        }
+                        .portfoliogrid7:hover .info {
+                            display: block;
+                            }
+                            .portfoliogrid8:hover .info {
+                                display: block;
+                                }
+                                .portfoliogrid9:hover .info {
+                                    display: block;
+                                    }
+                                    .portfoliogrid1:hover .Sec__pic{-webkit-transform:scale(1.1);transform:scale(1.1);}
+                                    .portfoliogrid2:hover .Sec__pic{-webkit-transform:scale(1.1);transform:scale(1.1);}
+                                    .portfoliogrid3:hover .Sec__picV{-webkit-transform:scale(1.1);transform:scale(1.1);}
+                                    .portfoliogrid4:hover .Sec__pic{-webkit-transform:scale(1.1);transform:scale(1.1);}
+                                    .portfoliogrid5:hover .Sec__pic{-webkit-transform:scale(1.1);transform:scale(1.1);}
+                                    .portfoliogrid6:hover .Sec__picV{-webkit-transform:scale(1.1);transform:scale(1.1);}
+                                    .portfoliogrid7:hover .Sec__pic{-webkit-transform:scale(1.1);transform:scale(1.1);}
+                                    .portfoliogrid8:hover .Sec__pic{-webkit-transform:scale(1.1);transform:scale(1.1);}
+                                    .portfoliogrid9:hover #Sec__picH{-webkit-transform:scale(1.1);transform:scale(1.1);}
+                                    .SecWhite:hover .Sec__pic{-webkit-transform:scale(1.1);transform:scale(1.1);}
+}

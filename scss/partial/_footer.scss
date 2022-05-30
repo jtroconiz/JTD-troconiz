@@ -1,0 +1,21 @@
+/* footer */
+footer{ 
+  margin-top: auto;
+    .footera {
+        background-color: map-get($map: $colores, $key: 'back');
+        justify-content: center;
+        text-align: center;
+        .boton {
+            text-decoration: none;
+            color: map-get($map: $colores, $key: 'primario');
+            font-size: 20px;
+            padding: 1rem;
+        }
+             }
+    .footerb{
+      background-color: map-get($map: $colores, $key: 'secundario');
+        padding: 0.5em;  
+        text-align: center;
+        color: map-get($map: $colores, $key: 'back');
+            }    
+}

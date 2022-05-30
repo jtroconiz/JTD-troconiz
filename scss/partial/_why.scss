@@ -1,0 +1,10 @@
+/* why */
+.card-img-top{
+        @include pics(fill, 300px, 60px, 5px)  
+}
+.textcarou{
+text-align: center;
+}
+.d-block{
+        width: 350px;
+}

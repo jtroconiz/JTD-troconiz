@@ -1,0 +1,28 @@
+ /* mixin  uso en portfolio*/   
+@mixin pics ($object-fit, $width, $height, $border-radius){
+    object-fit: $object-fit; 
+    width: $width;
+    height: $height; 
+    border-radius: $border-radius;
+}
+/* maps-Variables*/
+
+$colores:(
+    'primario': #12054c,
+    'secundario': #8196ff,
+    'back': white
+);
+
+$vista:mobile;
+
+@if $vista == mobile {
+    @media only screen and (max-width: 600px){
+        h1{font-size:1.4rem;}
+        h2{font-size:1rem;}
+        h3{font-size:1.3rem;}
+        } 
+    }@else {
+            h1{font-size:1.8rem; }
+            h2{font-size:1.4rem;}
+            h3{font-size:1rem;}
+            p{font-size:small;}                } 

@@ -1,0 +1,31 @@
+/* portfolio -  */
+.portfoliogrid{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 300px;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    grid-template-areas: 
+    "portfoliogrid1"
+    "portfoliogrid2"
+    "portfoliogrid3"    
+    "portfoliogrid4"
+    "portfoliogrid5"
+    "portfoliogrid6"    
+    "portfoliogrid7"
+    "portfoliogrid8"
+    "portfoliogrid9"
+    ;
+        img{
+            @include pics(fill, 100%, 250px, 20px)
+        }
+        .Sec__picV{
+            @include pics(fill, 100%, 550px, 20px)
+        } 
+        @for $grid from 1 through 8{
+            &#{$grid}{
+               grid-area: portfoliogrid#{$grid}; 
+            }
+        }
+}        

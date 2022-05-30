@@ -1,0 +1,26 @@
+/* fonts */
+@font-face {
+    font-family: bebas;
+    src: url(bebas.ttf);
+}   
+@font-face {
+    font-family: somatic;
+    src: url(somatic.otf);
+} 
+@font-face {
+    font-family: quick;
+    src: url(somatic.otf);
+} 
+@font-face {
+    font-family: quickl;
+    src: url(Quicksand-Light.ttf);
+}
+@font-face {
+    font-family: quick2;
+    src: url(Quicksand-Regular.ttf);
+}
+$fuente1: 'bebas';
+$fuente2: 'quick';
+$fuente3: 'somatic';
+$fuente2l: 'quickl';
+$fuente2r: 'quick2';

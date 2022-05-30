@@ -1,0 +1,14 @@
+/* header */
+header{    
+    background-color: map-get($map: $colores, $key: 'primario');
+    img{
+        width: 120px;
+        padding-right: 0.5;
+    }
+    .nav-item{
+        padding: 1rem;
+    }
+    li{
+        letter-spacing:2.5px;
+    }
+}
