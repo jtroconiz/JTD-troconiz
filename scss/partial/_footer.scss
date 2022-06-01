@@ -1,7 +1,8 @@
 /* footer */
 footer{ 
-  margin-top: 2rem;
+  margin-top: auto;
     .footera {
+      margin-top: 2rem;
         background-color: map-get($map: $colores, $key: 'back');
         justify-content: center;
         text-align: center;

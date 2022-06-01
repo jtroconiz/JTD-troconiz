@@ -117,10 +117,11 @@ header li {
 
 /* footer */
 footer {
-  margin-top: 2rem;
+  margin-top: auto;
 }
 
 footer .footera {
+  margin-top: 2rem;
   background-color: white;
   justify-content: center;
   text-align: center;
