@@ -191,6 +191,17 @@ footer .footerb {
   width: 300px;
 }
 
+.imgfit {
+  display: none;
+  height: 150px;
+  width: 900px;
+}
+
+.imgfitmob {
+  height: 250px;
+  width: 300px;
+}
+
 /* portfolio -  */
 .portfoliogrid {
   margin-top: 1rem;
@@ -563,6 +574,14 @@ footer .footerb {
   }
   .whygrid7 {
     grid-area: whygrid7;
+  }
+  .imgfitmob {
+    display: none;
+  }
+  .imgfit {
+    display: inline-block;
+    height: 150px;
+    width: 900px;
   }
   .whygoal {
     display: flex;

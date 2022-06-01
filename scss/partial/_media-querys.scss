@@ -163,6 +163,14 @@ header img{
         }
 }
 
+.imgfitmob{
+   display: none;   
+}
+.imgfit{
+    display: inline-block;
+    height: 150px;
+    width: 900px;
+}
 .whygoal{
         display: flex;
         padding: 0.5rem;
