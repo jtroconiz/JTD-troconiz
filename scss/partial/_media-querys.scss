@@ -9,7 +9,9 @@ header img{
     width: 150px;
     padding-left: 2em;
 }
-
+.card-img-top{
+    @include pics(fill, 300px, 60px, 5px)  
+}
 /* about grid */
 .aboutgrid{
     display: grid;
@@ -68,7 +70,7 @@ header img{
         font-family: $fuente2r;
         font-weight: 300;
     }   
-
+  
 .nomobile{
         display: contents;
 }

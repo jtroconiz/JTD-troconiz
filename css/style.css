@@ -172,7 +172,7 @@ footer .footerb {
 /* why */
 .card-img-top {
   object-fit: fill;
-  width: 300px;
+  width: 200px;
   height: 60px;
   border-radius: 5px;
 }
@@ -193,7 +193,7 @@ footer .footerb {
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  grid-template-areas: "portfoliogrid1" "portfoliogrid2" "portfoliogrid3"     "portfoliogrid4" "portfoliogrid5" "portfoliogrid6"     "portfoliogrid7" "portfoliogrid8" "portfoliogrid9";
+  grid-template-areas: "portfoliogrid1" "portfoliogrid2" "portfoliogrid3"     "portfoliogrid4" "portfoliogrid5" "portfoliogrid6"     "portfoliogrid7" "portfoliogrid8" "portfoliogrid9";
 }
 
 .portfoliogrid img {
@@ -399,6 +399,12 @@ footer .footerb {
     width: 150px;
     padding-left: 2em;
   }
+  .card-img-top {
+    object-fit: fill;
+    width: 300px;
+    height: 60px;
+    border-radius: 5px;
+  }
   /* about grid */
   .aboutgrid {
     display: grid;
@@ -406,7 +412,7 @@ footer .footerb {
     align-items: center;
     grid-template-columns: 200px 200px 200px;
     justify-content: center;
-    grid-template-areas: "aboutgrid1 aboutgrid2 aboutgrid2" "aboutgrid3 aboutgrid3 aboutgrid4 ";
+    grid-template-areas: "aboutgrid1 aboutgrid2 aboutgrid2" "aboutgrid3 aboutgrid3 aboutgrid4 ";
   }
   .aboutgrid1 {
     grid-area: aboutgrid1;
@@ -423,7 +429,7 @@ footer .footerb {
   /* portfolio grid*/
   .portfoliogrid {
     grid-template-columns: 250px 250px;
-    grid-template-areas: "portfoliogrid1 portfoliogrid2" "portfoliogrid3 portfoliogrid6" "portfoliogrid5 portfoliogrid4" "portfoliogrid8 portfoliogrid7" "portfoliogrid9 portfoliogrid9";
+    grid-template-areas: "portfoliogrid1 portfoliogrid2" "portfoliogrid3 portfoliogrid6" "portfoliogrid5 portfoliogrid4" "portfoliogrid8 portfoliogrid7" "portfoliogrid9 portfoliogrid9";
   }
   #Sec__picH {
     object-fit: fill;
@@ -535,7 +541,7 @@ footer .footerb {
     align-items: center;
     justify-content: center;
     gap: 3rem;
-    grid-template-areas: "whygrid1 linea whygrid2" "whygrid3 linea whygrid2 " "whygrid5 linea whygrid4" "whygrid7 linea whygrid6";
+    grid-template-areas: "whygrid1 linea whygrid2" "whygrid3 linea whygrid2 " "whygrid5 linea whygrid4" "whygrid7 linea whygrid6";
   }
   .whygrid1 {
     grid-area: whygrid1;
@@ -582,7 +588,7 @@ footer .footerb {
     grid-template-columns: 150px 200px 200px 150px;
     align-items: center;
     justify-content: center;
-    grid-template-areas: "aboutgrid1 aboutgrid2 aboutgrid2 aboutgrid2" "aboutgrid3 aboutgrid3 aboutgrid3 aboutgrid4";
+    grid-template-areas: "aboutgrid1 aboutgrid2 aboutgrid2 aboutgrid2" "aboutgrid3 aboutgrid3 aboutgrid3 aboutgrid4";
   }
   .aboutgrid1 {
     grid-area: aboutgrid1;
@@ -612,7 +618,7 @@ footer .footerb {
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    grid-template-areas: "portfoliogrid1 portfoliogrid5 portfoliogrid3" "portfoliogrid4 portfoliogrid2 portfoliogrid3" "portfoliogrid6 portfoliogrid7 portfoliogrid8" "portfoliogrid6 portfoliogrid9 portfoliogrid9";
+    grid-template-areas: "portfoliogrid1 portfoliogrid5 portfoliogrid3" "portfoliogrid4 portfoliogrid2 portfoliogrid3" "portfoliogrid6 portfoliogrid7 portfoliogrid8" "portfoliogrid6 portfoliogrid9 portfoliogrid9";
   }
   #Sec__picH {
     object-fit: fill;
