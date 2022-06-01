@@ -10,6 +10,7 @@ footer{
             text-decoration: none;
             display: inline-block;
             color: map-get($map: $colores, $key: 'primario');
+            color:   #212427;
             font-size: 30px;
             padding: 1rem;
            
@@ -20,5 +21,7 @@ footer{
         padding: 0.5em;  
         text-align: center;
         color: map-get($map: $colores, $key: 'back');
+        letter-spacing:2.5px;
+        
             }    
 }

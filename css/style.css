@@ -131,6 +131,7 @@ footer .footera .boton {
   text-decoration: none;
   display: inline-block;
   color: #12054c;
+  color: #212427;
   font-size: 30px;
   padding: 1rem;
 }
@@ -140,6 +141,7 @@ footer .footerb {
   padding: 0.5em;
   text-align: center;
   color: white;
+  letter-spacing: 2.5px;
 }
 
 /* form */
