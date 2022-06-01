@@ -9,9 +9,7 @@ header img{
     width: 150px;
     padding-left: 2em;
 }
-.card-img-top{
-    @include pics(fill, 300px, 60px, 5px)  
-}
+
 /* about grid */
 .aboutgrid{
     display: grid;
@@ -228,6 +226,13 @@ header img{
 }
 .Sec__picV{
     @include pics(fill, 100%, 550px, 20px)
+}
+.card-img-top{
+    @include pics(fill, 300px, 60px, 5px);
+    
+    padding:0.5rem;
+    margin-left: 2rem;
+    
 }
 
 .portfoliogrid1:hover .info {

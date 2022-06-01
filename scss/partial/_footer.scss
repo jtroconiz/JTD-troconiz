@@ -7,9 +7,11 @@ footer{
         text-align: center;
         .boton {
             text-decoration: none;
+            display: inline-block;
             color: map-get($map: $colores, $key: 'primario');
-            font-size: 20px;
+            font-size: 30px;
             padding: 1rem;
+           
         }
              }
     .footerb{
