@@ -141,7 +141,6 @@ footer .footerb {
   padding: 0.5em;
   text-align: center;
   color: white;
-  letter-spacing: 2.5px;
 }
 
 /* form */
@@ -798,6 +797,9 @@ footer .footerb {
     border-radius: 5px;
     padding: 0.5rem;
     margin-left: 2rem;
+  }
+  .footerb {
+    letter-spacing: 2.5px;
   }
   .portfoliogrid9:hover .info {
     width: 615px;
