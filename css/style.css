@@ -173,11 +173,22 @@ footer .footerb {
   padding: 1rem;
 }
 
+.info {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  font-size: 1.5rem;
+  width: 300px;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  top: 25px;
+}
+
 /* why */
 .card-img-top {
   object-fit: fill;
   width: 200px;
-  height: 60px;
+  height: 70px;
   border-radius: 5px;
   padding: 1rem;
   margin-left: 1rem;
@@ -229,34 +240,164 @@ footer .footerb {
 
 .portfoliogrid1 {
   grid-area: portfoliogrid1;
+  position: relative;
+}
+
+.portfoliogrid1:hover .info {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.7);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#50000000,endColorstr=#50000000);
+  color: #FFF;
+  padding: 10px;
+  font-size: 1.3rem;
+  border-radius: 20px;
 }
 
 .portfoliogrid2 {
   grid-area: portfoliogrid2;
+  position: relative;
+}
+
+.portfoliogrid2:hover .info {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.7);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#50000000,endColorstr=#50000000);
+  color: #FFF;
+  padding: 10px;
+  font-size: 1.3rem;
+  border-radius: 20px;
 }
 
 .portfoliogrid3 {
   grid-area: portfoliogrid3;
+  position: relative;
+}
+
+.portfoliogrid3:hover .info {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.7);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#50000000,endColorstr=#50000000);
+  color: #FFF;
+  padding: 10px;
+  font-size: 1.3rem;
+  border-radius: 20px;
 }
 
 .portfoliogrid4 {
   grid-area: portfoliogrid4;
+  position: relative;
+}
+
+.portfoliogrid4:hover .info {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.7);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#50000000,endColorstr=#50000000);
+  color: #FFF;
+  padding: 10px;
+  font-size: 1.3rem;
+  border-radius: 20px;
 }
 
 .portfoliogrid5 {
   grid-area: portfoliogrid5;
+  position: relative;
+}
+
+.portfoliogrid5:hover .info {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.7);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#50000000,endColorstr=#50000000);
+  color: #FFF;
+  padding: 10px;
+  font-size: 1.3rem;
+  border-radius: 20px;
 }
 
 .portfoliogrid6 {
   grid-area: portfoliogrid6;
+  position: relative;
+}
+
+.portfoliogrid6:hover .info {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.7);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#50000000,endColorstr=#50000000);
+  color: #FFF;
+  padding: 10px;
+  font-size: 1.3rem;
+  border-radius: 20px;
 }
 
 .portfoliogrid7 {
   grid-area: portfoliogrid7;
+  position: relative;
+}
+
+.portfoliogrid7:hover .info {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.7);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#50000000,endColorstr=#50000000);
+  color: #FFF;
+  padding: 10px;
+  font-size: 1.3rem;
+  border-radius: 20px;
 }
 
 .portfoliogrid8 {
   grid-area: portfoliogrid8;
+  position: relative;
+}
+
+.portfoliogrid8:hover .info {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.7);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#50000000,endColorstr=#50000000);
+  color: #FFF;
+  padding: 10px;
+  font-size: 1.3rem;
+  border-radius: 20px;
+}
+
+.portfoliogrid9 {
+  grid-area: portfoliogrid9;
+  position: relative;
+}
+
+.portfoliogrid9:hover .info {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.7);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#50000000,endColorstr=#50000000);
+  color: #FFF;
+  padding: 10px;
+  font-size: 1.3rem;
+  border-radius: 20px;
 }
 
 /* animations */
@@ -621,15 +762,6 @@ footer .footerb {
   .aboutgrid4 {
     grid-area: aboutgrid4;
   }
-  .info {
-    display: none;
-    position: absolute;
-    z-index: 10;
-    font-size: 1.5rem;
-    width: 300px;
-    color: white;
-    background: rgba(0, 0, 0, 0.5);
-  }
   .portfoliogrid {
     margin-top: 1rem;
     display: grid;
@@ -653,78 +785,14 @@ footer .footerb {
   }
   .card-img-top {
     object-fit: fill;
-    width: 300px;
+    width: 230px;
     height: 60px;
     border-radius: 5px;
     padding: 0.5rem;
     margin-left: 2rem;
   }
-  .portfoliogrid1:hover .info {
-    display: block;
-  }
-  .portfoliogrid2:hover .info {
-    display: block;
-  }
-  .portfoliogrid3:hover .info {
-    display: block;
-  }
-  .portfoliogrid4:hover .info {
-    display: block;
-  }
-  .portfoliogrid5:hover .info {
-    display: block;
-  }
-  .portfoliogrid6:hover .info {
-    display: block;
-  }
-  .portfoliogrid7:hover .info {
-    display: block;
-  }
-  .portfoliogrid8:hover .info {
-    display: block;
-  }
   .portfoliogrid9:hover .info {
-    display: block;
-  }
-  .portfoliogrid1:hover .Sec__pic {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-  .portfoliogrid2:hover .Sec__pic {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-  .portfoliogrid3:hover .Sec__picV {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-  .portfoliogrid4:hover .Sec__pic {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-  .portfoliogrid5:hover .Sec__pic {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-  .portfoliogrid6:hover .Sec__picV {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-  .portfoliogrid7:hover .Sec__pic {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-  .portfoliogrid8:hover .Sec__pic {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-  .portfoliogrid9:hover #Sec__picH {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-  .SecWhite:hover .Sec__pic {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    width: 615px;
   }
 }
 /*# sourceMappingURL=style.css.map */

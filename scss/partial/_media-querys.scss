@@ -206,15 +206,7 @@ header img{
         }
 }
 
-.info {
-    display: none;
-    position: absolute;
-    z-index: 10; 
-    font-size: 1.5rem;
-    width: 300px;
-    color: map-get($map: $colores, $key: 'back');
-    background: rgba(0, 0, 0, 0.5);
-   }
+
    .portfoliogrid{
     margin-top: 1rem;
     display: grid;
@@ -236,48 +228,11 @@ header img{
     @include pics(fill, 100%, 550px, 20px)
 }
 .card-img-top{
-    @include pics(fill, 300px, 60px, 5px);
-    
+    @include pics(fill, 230px, 60px, 5px);   
     padding:0.5rem;
     margin-left: 2rem;
     
 }
 
-.portfoliogrid1:hover .info {
-    display: block;
-    }
-    .portfoliogrid2:hover .info {
-        display: block;
-        }
-        .portfoliogrid3:hover .info {
-            display: block;
-            }
-            .portfoliogrid4:hover .info {
-                display: block;
-                }
-                .portfoliogrid5:hover .info {
-                    display: block;
-                    }
-                    .portfoliogrid6:hover .info {
-                        display: block;
-                        }
-                        .portfoliogrid7:hover .info {
-                            display: block;
-                            }
-                            .portfoliogrid8:hover .info {
-                                display: block;
-                                }
-                                .portfoliogrid9:hover .info {
-                                    display: block;
-                                    }
-                                    .portfoliogrid1:hover .Sec__pic{-webkit-transform:scale(1.1);transform:scale(1.1);}
-                                    .portfoliogrid2:hover .Sec__pic{-webkit-transform:scale(1.1);transform:scale(1.1);}
-                                    .portfoliogrid3:hover .Sec__picV{-webkit-transform:scale(1.1);transform:scale(1.1);}
-                                    .portfoliogrid4:hover .Sec__pic{-webkit-transform:scale(1.1);transform:scale(1.1);}
-                                    .portfoliogrid5:hover .Sec__pic{-webkit-transform:scale(1.1);transform:scale(1.1);}
-                                    .portfoliogrid6:hover .Sec__picV{-webkit-transform:scale(1.1);transform:scale(1.1);}
-                                    .portfoliogrid7:hover .Sec__pic{-webkit-transform:scale(1.1);transform:scale(1.1);}
-                                    .portfoliogrid8:hover .Sec__pic{-webkit-transform:scale(1.1);transform:scale(1.1);}
-                                    .portfoliogrid9:hover #Sec__picH{-webkit-transform:scale(1.1);transform:scale(1.1);}
-                                    .SecWhite:hover .Sec__pic{-webkit-transform:scale(1.1);transform:scale(1.1);}
-}
+.portfoliogrid9:hover .info {
+    width: 615px;}}
