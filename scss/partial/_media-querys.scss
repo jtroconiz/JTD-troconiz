@@ -4,7 +4,14 @@
 }
 
 @media only screen and (min-width: 601px) {
-  
+  .imgfit{
+    display: inline-block;
+    height: 150px;
+    width: 900px;
+}
+.imgfitmob{
+   display: none;   
+}
 header img{
     width: 150px;
     padding-left: 2em;
@@ -75,7 +82,14 @@ header img{
 .nopc{
    display: none;
 } 
-
+.imgfit{
+    display: inline-block;
+    height: 150px;
+    width: 900px;
+}
+.imgfitmob{
+   display: none;   
+}
 .maincontact{
     padding-top: 9rem;
 }   
@@ -162,14 +176,7 @@ header img{
             }
         }
 }
-.imgfit{
-    display: inline-block;
-    height: 150px;
-    width: 900px;
-}
-.imgfitmob{
-   display: none;   
-}
+
 
 .whygoal{
         display: flex;
